@@ -1,0 +1,36 @@
+public class EventoDeportivo {
+
+    private String codigo;
+    private String descripcion;
+    private double cuotaLocal;
+    private double cuotaEmpate;
+    private double cuotaVisitante;
+
+    public EventoDeportivo (String codigo, String descripcion, double cuotaLocal, double cuotaEmpate, double cuotaVisitante) {
+        this.codigo = codigo;
+        this.descripcion = descripcion;
+        this.cuotaLocal = cuotaLocal;
+        this.cuotaEmpate = cuotaEmpate;
+        this.cuotaVisitante = cuotaVisitante;
+}
+
+    public String getCodigo(){
+        return codigo;
+    }
+
+    public String getDescripcion(){
+        return descripcion;
+    }
+
+    public double getCuotaLocal (){
+        return cuotaLocal;
+    }
+
+    public double getCuotaVisitante(){
+        return cuotaVisitante;
+    }
+
+    public double getCuotaEmpate(){
+        return cuotaEmpate;
+    }
+}
