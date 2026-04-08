@@ -1,0 +1,8 @@
+public class CasaDeApuestas {
+    private String nombre;
+    private List <Jugador> jugadores;
+    private List <EventoDeportivo> eventos;
+    private List <TicketApuesta> tickets;
+    
+
+}
