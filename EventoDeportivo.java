@@ -6,6 +6,7 @@ public class EventoDeportivo {
     private double cuotaEmpate;
     private double cuotaVisitante;
 
+    //Constructor 
     public EventoDeportivo (String codigo, String descripcion, double cuotaLocal, double cuotaEmpate, double cuotaVisitante) {
         this.codigo = codigo;
         this.descripcion = descripcion;

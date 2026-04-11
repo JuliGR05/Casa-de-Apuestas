@@ -1,8 +1,12 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Jugador extends Persona {
     private String id;
     private double saldo;
     List <TicketApuesta> tickets; 
 
+    //Constructor
     public Jugador (String nombre, String id, double saldo) {
         super (nombre);
         this.id = id;
