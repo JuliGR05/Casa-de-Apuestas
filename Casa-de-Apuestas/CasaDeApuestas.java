@@ -1,5 +1,5 @@
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 
 public class CasaDeApuestas {
     private String nombre;
@@ -52,6 +52,21 @@ public class CasaDeApuestas {
         }
     }
     return null;
+}
+
+public void agregarTicket(TicketApuesta ticket) {
+    tickets.add(ticket);
+}
+
+public void listarTickets() {
+    if (tickets.isEmpty()) {
+        System.out.println("No hay tickets registrados");
+        return;
+    }
+
+    for (TicketApuesta t : tickets) {
+        System.out.println("Ticket: " + t.getCodigo());
+    }
 }
                         
 }

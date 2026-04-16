@@ -19,6 +19,6 @@ public class ApuestaMultiple extends Apuesta {
             producto *= linea.getCuotaSeleccionada();
         }
 
-        return monto * producto;
+        return Math.round (monto * producto);
     }
 }

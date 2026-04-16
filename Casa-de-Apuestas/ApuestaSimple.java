@@ -2,8 +2,9 @@ public class ApuestaSimple extends Apuesta {
     
     private LineaApuesta linea;
     
-    public ApuestaSimple(double monto, Jugador jugador) {
+    public ApuestaSimple(double monto, Jugador jugador, LineaApuesta linea) {
     super(monto, jugador);
+    this.linea = linea; 
 }
 
 @Override
